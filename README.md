@@ -15,7 +15,7 @@
 ##   Funcionalidades
 
 * <strong>Banco de dados Firebase</strong> 
-* <strong>Cadastrar de usuário</strong> 
+* <strong>Cadastro de usuário</strong> 
 * <strong>Login de usuário</strong>
 * <strong>Cadastro de posts</strong>
 * <strong>Ver post completo</strong>
