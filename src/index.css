@@ -75,7 +75,7 @@ textarea::placeholder {
 }
 
 .btn.btn-dark {
-  border-color: #000;
+  background-color: #000;
   border-radius: 0;
 }
 
