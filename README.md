@@ -23,8 +23,6 @@
 * <strong>Alterar post</strong>
 * <strong>Excluir post</strong> 
 * <strong>Pesquisar Post</strong> 
-  
-* <a href="https://blogdev-1e8d3.web.app/" target="_blank"><h4>Confira o projeto hospedado no firebase: https://blogdev-1e8d3.web.app/</h3></a>
 
 <br>
 <br>
