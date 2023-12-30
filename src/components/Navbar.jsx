@@ -4,10 +4,6 @@ import { useAuthentication } from '../hooks/useAuthemtication';
 import { useAuthValue } from '../context/AuthContext';
 import { useNavigate} from "react-router-dom";
 import { useState } from "react";
-import { useFetchDocuments } from "../hooks/useFetchDocuments";
-
-
-
 
 const Navbar = () => {
     const { user } = useAuthValue()
@@ -30,7 +26,7 @@ const Navbar = () => {
     <nav className={styles.navbar}>
         <NavLink to="/"  className={styles.brand}>
             <div>
-                <img src="/public/terminal.svg" alt="" />
+                <img src="/terminal.svg" alt="" />
                 Blog DEV
             </div>
         </NavLink>
@@ -85,7 +81,7 @@ const Navbar = () => {
         type="text" 
         placeholder="Ou busque por tags..." 
         onChange={(e) => setQuery(e.target.value)}/>
-        <button className="btn-dark"><img src="/public/lupa.svg" alt="" /></button>
+        <button className="btn-dark"><img src="/lupa.svg" alt="" /></button>
       </form>
     </nav>
   )
