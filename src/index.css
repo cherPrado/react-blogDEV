@@ -3,9 +3,10 @@
 }
 
 body {
-  background-color: #F6FCFF;
+  background-color: #303030;
   padding: 0;
   margin: 0;
+  color: #fffffff5;
 }
 
 input:focus,
@@ -18,7 +19,7 @@ nav button {
   text-decoration: none;
   background-color: transparent;
   border: none;
-  color: #000;
+  color: #fff;
   transition: .4s;
   font-size: 1em;
   cursor: pointer;
@@ -31,7 +32,7 @@ nav button:hover {
 
 form {
   max-width: 40%;
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 
 label {
@@ -48,6 +49,7 @@ label span {
 
 input,
 textarea {
+  color: #fff;
   box-sizing: border-box;
   border: none;
   border-bottom: 1px solid #ccc;
@@ -82,8 +84,8 @@ textarea::placeholder {
 .btn.btn-outline {
   background: transparent;
   border-radius: 0;
-  color: #000;
-  border: 1px solid #000;
+  color: #fff;
+  border: 1px solid #fff;
   padding: 7px 30px;
 }
 

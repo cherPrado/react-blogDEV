@@ -5,17 +5,13 @@
     justify-content: center;
 }
 
-.search_form {
-    max-width: 100%;
-    width: 60%;
+.container_posts{
+    margin-top: 30px;
+    max-width: 1600px;
     display: flex;
-    justify-content: center;
-    margin-bottom: 2em;
-}
-
-.search_form input {
-    margin-right: 10px;
-    width: 50%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 40px;
 }
 
 .noposts {
@@ -28,4 +24,12 @@
 
 .noposts a {
     padding: 10px 25px;
+}
+
+
+@media (max-width: 839px){
+    .container_posts{
+
+        justify-content: center;
+    }
 }

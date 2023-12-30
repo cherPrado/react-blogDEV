@@ -1,9 +1,26 @@
 .post_detail {
     margin-bottom: 2em;
+    flex: 1 0 400px; 
+    background-color: #1B1C1F;
+    padding: 20px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    max-width: 506px;
 }
 
 .post_detail img {
-    width: 600px;
+    width: 100%;
+    max-height: 225px;
+}
+
+.post_detail .div_img{
+    max-width: 460px;
+    margin: auto;
+}
+
+.post_detail .div_text{
+    padding: 0 11px 30px 11px;
 }
 
 .post_detail h2 {
@@ -25,8 +42,17 @@
 
 .createdby {
     font-style: italic;
-    color: #444;
+    color: #fff;
     font-size: .8em;
     margin-bottom: 1em;
+}
 
+.post_detail  .div_text .btn-outline a{
+    text-decoration: underline !important;
+}
+
+@media (max-width: 410px){
+    .post_detail{
+        max-width: 320px;
+    }
 }

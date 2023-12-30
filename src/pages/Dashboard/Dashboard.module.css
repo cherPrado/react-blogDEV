@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #fff
 }
 
 .dashboard h2 {
@@ -50,8 +51,7 @@
 }
 
 .post_row p {
-    color: #000;
-
+    color: #fff;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
