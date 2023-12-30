@@ -41,6 +41,9 @@
   <img src="./.github/3.png" width="600px"/>
 </p>
 <p align="center">
+  <img src="./.github/6.png" width="600px"/>
+</p>
+<p align="center">
   <img src="./.github/4.png" width="600px"/>
 </p>
 <p align="center">
