@@ -1,5 +1,11 @@
 <h1 align="center">Blog para desenvolvedores feito em React</h1><br>
 
+<p align="center">
+  <a href="https://blogdev-1e8d3.web.app/" target="_blank">
+    <img src="./.github/8.png" width="400px"/>
+  </a>
+</p>
+
 <h3 align="center">
 ⚙️ Tecnologias utilizadas
 <p>&nbsp;</p>
@@ -22,11 +28,9 @@
 * <strong>Ver post completo</strong>
 * <strong>Alterar post</strong>
 * <strong>Excluir post</strong> 
-* <strong>Pesquisar Post</strong> 
+* <strong>Pesquisar Post</strong>
 
 <br>
-<br>
-
 
 ## 🚧 Projeto
 <p align="center">
@@ -49,6 +53,42 @@
 </p>
 
 <p>&nbsp;</p>
+
+---
+
+<br>
+
+<h2 id="-Instal"> 👨‍💻 Instalação </h2>
+
+1. Clone o repositório
+
+```bash
+    git clone git@github.com:cherPrado/react-blogDEV.git
+```
+
+2. Instale as dependências
+
+```bash
+    npm install
+```
+
+3. Rode a aplicação
+
+```bash 
+    npm run dev
+```
+
+4. Abra no navegador
+```bash 
+    http://localhost:5173/
+```
+
+<br>
+<br>
+ 
+ <strong>Ou ainda pode conferir online: </strong> https://blogdev-1e8d3.web.app/
+
+
 
 ---
 
